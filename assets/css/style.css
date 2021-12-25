@@ -1,0 +1,17 @@
+
+.navbar {
+  background: white!important;
+}
+.navbar-brand img{
+  height: 75px;
+}
+
+
+#about {
+  background: #ffe88c;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
