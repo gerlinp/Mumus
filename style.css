@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@font-face { font-family:amsterdam-two; src: url(amsterdam-two.ttf);}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+
+}
+
+
+
+#carousel {
+  position: relative;
+  /* max-width:  */
+}
+.carousel-inner {
+  position:absolute;
+  z-index: -1;
+}
+
+.carousel-item img, .carousel-item video {
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  z-index: 2;
+}
+
+#logo {
+  height: 90vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  text-align: center;
+}
+
+#logo img{
+  width:100%;
+  position: relative;
+
+}
+
+
+
+#about img {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 25vh;
+}
