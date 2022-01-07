@@ -94,6 +94,23 @@ body {
   
 }
 
+#thanks {
+  font-weight: bold;
+  font-size: 3rem;
+  word-spacing: 10px;
+  background:transparent;
+  color: black;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+  max-width: 1024px;
+  
+}
+
+.thanks img {
+  max-width: 75vw;
+  max-height: 50vh
+}
+
+
 .removemargin {
   margin-bottom: 0!important;
 }
@@ -202,13 +219,26 @@ body {
   width:70%;
 }
 
-#order button {
+#order button  {
   padding: 10px;
   width: 50vw;
   border:none;
   border-radius: 10px;
   color: #fff;
   background: #420011;
+}
+
+.thanks button {
+  padding: 10px;
+  width: 50vw;
+  border:none;
+  border-radius: 10px;
+  color: #fff;
+  background: #420011;
+  font-size: 2rem;
+}
+.thanks {
+  max-height: 75vh;
 }
 
 /* ABOUT */
@@ -307,7 +337,6 @@ body {
   }
 }
 
-
-
+/* modal */
 
 
