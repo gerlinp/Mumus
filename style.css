@@ -88,7 +88,6 @@ body {
   font-weight: bold;
   font-size: 3rem;
   word-spacing: 10px;
-
   background:transparent;
   color: #fff;
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
@@ -107,6 +106,9 @@ body {
   font-size: 2rem;
 }
 
+.menuitem {
+  max-width: 300px;
+}
 
 
 .product-top-image {
@@ -155,21 +157,7 @@ body {
   padding: 20px;
 } */
 
-#pikliz .product{
-  background: rgb(113,	35,	29, 1);
-}
 
-#corn .product {
-  background: #e8b923;
-}
-
-#epis .product {
-  background: #06170e;
-}
-
-#apron .product {
-  background:gray;
-}
 
 #apron p {
   font-size:2rem;
@@ -181,7 +169,7 @@ body {
 }
 
 .products {
-  height: 30vh;
+  height: 25vh;
 }
 #menu {
   background: #f7e8b7;
@@ -193,12 +181,13 @@ body {
 }
 
 #menu .img {
-  height: 145px;
-  max-width: 145px;
+  height: 140px;
+  max-width: 140px;
   background-size: cover;
   border-radius: 50%;
   border: 2px solid #420011;
   background-position: center;
+  margin-left: 10px;
 }
 
 
@@ -242,6 +231,15 @@ body {
   width: 75%;
   
 }
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+
+.footer-logo {
+  max-width:600px;
+}
 /* MEDIA QUERIES */
 
 @media (min-width: 767px) {
@@ -262,8 +260,17 @@ body {
   #products p {
     font-size: 2rem;
     text-align: center;
-    padding: 0px 150px;
 
+
+  }
+
+  #corn h5 {
+    font-size: 1rem;
+  }
+
+  
+  #corn p {
+    font-size: 15px;
   }
 
   .vid1 {
@@ -283,9 +290,21 @@ body {
     z-index: 1;
     padding-right: 50px;
 
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
+  #menu {
+    border-right: none;
+    width: 50%;
+  }
+
+  #order {
+    border-left: none;
+  }
+
+  #order button {
+    width: 80%;
+  }
 }
 
 
