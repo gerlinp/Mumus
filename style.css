@@ -97,12 +97,14 @@ body {
 #thanks {
   font-weight: bold;
   font-size: 3rem;
-  word-spacing: 10px;
   background:transparent;
   color: black;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.thanks {
   max-width: 1024px;
-  
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+  word-spacing: 10px;
 }
 
 .thanks img {
@@ -337,6 +339,14 @@ body {
   }
 }
 
+.border-line {
+  border-top: solid 1px black;
+}
+
+.card {
+  background: transparent;
+  border: none;
+}
 /* modal */
 
 
