@@ -14,6 +14,18 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+a { 
+  color: inherit; 
+} 
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .maxcontain {
   max-width: 1024px;
 }
@@ -344,8 +356,8 @@ body {
 }
 
 .card {
-  background: transparent;
-  border: none;
+  background: transparent !important;
+  border: none !important;
 }
 /* modal */
 
