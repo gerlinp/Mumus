@@ -151,10 +151,10 @@ a:visited {
   box-shadow: 0px 10px 13px -7px #000000, 16px 0px 50px -19px #FFA538;
 }
 
-.product-top-image-2 {
+.product-top-image2 {
   position: absolute;
-  width: 57%;
-  top: -70px;
+  width: 40%;
+  top: -100px !important;
   z-index: -1;
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 16px 0px 50px -19px #FFA538; 
   box-shadow: 0px 10px 13px -7px #000000, 16px 0px 50px -19px #FFA538;
@@ -360,6 +360,10 @@ a:visited {
 
   #order button {
     width: 80%;
+  }
+
+  #order p {
+    font-size: 1.5rem;
   }
 }
 
