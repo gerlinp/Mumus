@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
 @font-face { font-family:amsterdam-two; src: url(amsterdam-two.ttf);}
+@font-face { font-family:bangla-mn; src: url(bangla-mn.ttf);}
 
 * {
   box-sizing: border-box;
@@ -68,6 +70,24 @@ a:visited {
   color: #e8b923;
 }
 
+/* #about-us p {
+  font-family: 'Source Sans Pro', sans-serif !important;
+} */
+
+
+.first {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+.second {
+  font-family: 'Playfair Display', serif;
+}
+
+.third {
+  font-family: 'bangla-mn', sans-serif !important;
+}
+
 #about img {
   height: 40vh;
   width: 100%;
@@ -123,7 +143,6 @@ a:visited {
   max-width: 75vw;
   max-height: 50vh
 }
-
 
 .removemargin {
   margin-bottom: 0!important;
@@ -378,3 +397,11 @@ a:visited {
 /* modal */
 
 
+.crt-grid-post-image {
+
+  width: 100%;
+}
+
+.crt-tag {
+  display: none !important;
+}
