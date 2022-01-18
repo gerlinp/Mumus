@@ -70,23 +70,12 @@ a:visited {
   color: #e8b923;
 }
 
-/* #about-us p {
-  font-family: 'Source Sans Pro', sans-serif !important;
-} */
-
-
-.first {
-  font-family: 'Source Sans Pro', sans-serif !important;
-}
-
-
-.second {
-  font-family: 'Playfair Display', serif;
-}
-
-.third {
+#about-us p {
   font-family: 'bangla-mn', sans-serif !important;
 }
+
+
+
 
 #about img {
   height: 40vh;
