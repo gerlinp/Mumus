@@ -260,13 +260,28 @@ a:visited {
   width:70%;
 }
 
-#order button  {
+#order button {
   padding: 10px;
   width: 50vw;
   border:none;
   border-radius: 10px;
   color: #fff;
   background: #420011;
+}
+
+#carousel a {
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  border:none;
+  border-radius: 10px;
+  color: #fff;
+  background: #420011;
+  font-size: 2rem;
+}
+
+.bg-g {
+  background: #3c5551 !important;
 }
 
 #locations a {
