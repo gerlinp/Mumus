@@ -244,7 +244,7 @@ nav {
 
 /* ORDER */
 
-#order, #gallery {
+#order, #social {
   background: #3c5551;
   border-left: 20px solid #f7e8b7;
 }
@@ -388,7 +388,7 @@ nav {
     width: 50%;
   }
 
-  #order, #gallery {
+  #order, #social {
     border-left: none;
   }
 
@@ -419,4 +419,8 @@ nav {
 
 .crt-tag {
   display: none !important;
+}
+
+.referral a {
+  display: none
 }
