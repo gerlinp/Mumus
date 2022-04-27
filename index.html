@@ -303,34 +303,69 @@
 
           <div id="locations" class="mx-0 pb-3 col-lg-6 pt-5">
             <h1 class="text-center py-5">LOCATIONS</h1>
+            <p class="text-success text-center">We offer Retail & pickup at these locations. <br> Click each location for our schedule! </p>
             <div class="card text-center">
-      
-              <div class="card-body">
-                <h4 class="card-title">Roslindale Winter Farmers Market</h4>
-                <h5 class="card-text">12pm-3pm</h5>
-                <h5 class="card-text">- Jan-09 - | - Jan 23 - | - Feb 06 - | - Feb 20 - | - Mar 06 - | - Mar 20- </h5>
-                <a href="https://www.roslindale.net/farmers-market" target="_blank" class="btn btn-success">More info</a>
-              </div>
-              '
-              <div class="card-body">
-                <h4 class="card-title">Brighton Winter Farmers Market</h4>
-                <h5 class="card-text">12pm-3pm</h5>
-                <h5 class="card-text">- Jan-29 - | - Feb 12 - | - Feb 26 - | - Mar 12 - | - Mar 26 - | - Apr 09- </h5>
-                <a href="https://abhealthcollaborative.org/farmers-market/" target="_blank" class="btn btn-success">More info</a>
-              </div>
+              <button type="button" class="loc-item ros" data-toggle="modal" onClick="showModal('pop')" data-target="#exampleModal" style="background-image: url('images/pop.jpg')">
+                <div class="loc-inner row">
+                  <div class="d-flex flex-column align-items-center my-auto">
+                    <div style="font-family: 'Chango', cursive;font-size: 1.5rem"> POPPORTUNITY</div><div style="font-size: 1.9rem">STARLIGHT SQUARE</div>
+                    <div>84 Bishop Allen Drive Central Square, Cambridge MA</div>
+                  </div>
+                </div>
+              </button>
 
+              <button type="button" class="loc-item bright" data-toggle="modal" onClick="showModal('bright')"  data-target="#exampleModal" style="background-image: url('images/location.jpg')">
+                <div class="loc-inner row">
+                  <div class="d-flex flex-column align-items-center my-auto" style="font-family: 'Roboto Slab', serif;">
+                    <div class="mb-0 pb-0" style="font-size: 2rem;font-weight: bold">BRIGHTON</div>
+                    <div class="mt-0 pt-0" style="font-size: 1.4rem;font-weight: bold"> SUMMER FARMERS MARKET</div>
+                    <div>30 Chestnut Hill Ave, Brighton, MA 02135</div>
+                  </div>
+                </div>
+              </button>
+              
+              <button type="button" class="loc-item ros" data-toggle="modal" onClick="showModal('ros'),updateRosDates()"  data-target="#exampleModal" style="background-image: url('images/roslindale.jpg')">
+                <div class="loc-inner row">
+                  <div class="class="mb-0 pb-0" style="font-size: 2rem;font-weight: bold" style="font-family: 'Walter Turncoat', cursive; font-size: 2rem; font-weight: bold;">Roslindale <br>Summer Farmers Market
+                  </div>
+                  <div>4236 Washington St, Roslindale, MA 02131</div>
+                </div>
+              </button>
+              <p class="text-success m-1">Also Keep an eye on our socials for pop up's!</p>
+              
 
-              <div class="card-body">
-                <h5 class="card-title">Popportunity Starlight Square</h5>
-                <p class="card-text">Returning in Spring March 2022</p>
-                <a href="https://www.starlightsquare.org/popportunity" target="_blank" class="btn btn-success">More info</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                  <div class="modal-body">
+                          <div class="card-body text-start">
+                            <h4 class="card-title ">Roslindale Summer Farmers Market</h4>
+                            <h5 class="card-text">12pm-3pm</h5>
+                            <h5>4236 Washington St, Roslindale, MA 02131</h5>
+                            <div class="d-flex flex-row">
+                              <div class="postdate text-center">
+                                <div class="month">Jun</div>
+                                <div class="day d-30">04</div> 
+                              </div>
+                              <div class="postdate text-center">
+                                <div class="month">Jun</div>
+                                <div class="day d-30">11</div> 
+                              </div>
+                            </div>
+                            <h5 class="card-text">Jun-04  Jun-11  Jun-18 - | - Jun-25 - | - Jul-09 - | - Jul-16 - | - Aug-06 - | - Aug-13 - | - Aug-20 - | - Aug-27 - | - Sep-03 - | - Sep-17 - | - Sep-024 - | - Oct-01 - | - Oct-08 - | - Oct-22 - | - Oct-29 - | - Nov-12 - |</h5>
+                            <a href="https://www.roslindale.net/farmers-market" target="_blank" class="btn btn-success">More info</a>
+                          </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
-
             </div>
-
-
+            </div>
           </div>
-
 
           <div id="social" class="text-center pb-3 col-md-6 pt-5">
             <h1 class=" py-5">SOCIALS</h1>
@@ -439,8 +474,9 @@
     </div>
     <div id="bottom-bar" class="fixed-bottom"></div>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
   </body>

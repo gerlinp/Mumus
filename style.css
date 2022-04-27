@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto+Slab:wght@500&family=Walter+Turncoat&display=swap');
 @font-face { font-family:amsterdam-two; src: url(amsterdam-two.ttf);}
 @font-face { font-family:bangla-mn; src: url(bangla-mn.ttf);}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
   box-sizing: border-box;
@@ -277,9 +282,6 @@ nav {
   background: #3c5551 !important;
 }
 
-#locations a {
-  background: #3c5551 !important;
-}
 
 .thanks button {
   padding: 10px;
@@ -409,8 +411,6 @@ nav {
   background: transparent !important;
   border: none !important;
 }
-/* modal */
-
 
 .crt-grid-post-image {
 
@@ -429,4 +429,82 @@ nav {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+
+/* locations */
+
+.loc-item {
+  color: #fff;
+  margin: 15px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.loc-inner {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.ros {
+  background-position: center;
+  background-size: cover;
+}
+
+.bright {
+  background-size: cover;
+  background-position: center;
+
+}
+
+@media (max-width: 350px) {
+  #locations button {
+    height: 25vh;
+  }
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* modal */
+.modal-content {
+  background: #3c5551;
+  color: #fff;
+}
+
+.modal h1 {
+  font-size: 3rem!important;
+}
+
+.postdate{
+  line-height: 1;
+  border: #e8b923 3px solid;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.postdate:hover {
+  background: #e8b923
+}
+.month{
+font-size: 1.75rem;
+}
+
+.day {
+font-size: 2rem;
+}
+
+#locations p {
+  color: #3c5551 !important
 }
