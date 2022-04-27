@@ -35,7 +35,7 @@ function updateRosDates() {
     rosdates.forEach(date => {
         rosDates.innerHTML += `
         <div class="postdate text-center">
-          <div class="month">${date.month}</div>
+          <div class="month pb-1">${date.month}</div>
           <div class="day d-30">${date.day}</div> 
         </div>
         `
