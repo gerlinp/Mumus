@@ -42,14 +42,6 @@ function updateRosDates() {
     });
 }
 
-{/* <div class="d-flex flex-row">
-
-</div> */}
-
-
-
-
-
 function showModal(info) {
     if ( info == 'ros' ) {
         modal.innerHTML = `
