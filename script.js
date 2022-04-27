@@ -47,7 +47,6 @@ function showModal(info) {
         modal.innerHTML = `
         <div class="card-body text-center">
           <h1 class="card-title ">Roslindale <br>Summer Farmers Market</h1>
-          <h5> Every Wednesday  <br> from June 15th - October 26th<h5>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
 
