@@ -47,7 +47,7 @@ function showModal(info) {
         modal.innerHTML = `
         <div class="card-body text-center">
           <h1 class="card-title ">Roslindale <br>Summer Farmers Market</h1>
-          <h5> Every Wednesday  from June 15th - October 26th<h5>
+          <h5> Every Wednesday  <br> from June 15th - October 26th<h5>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
 
@@ -62,7 +62,7 @@ function showModal(info) {
         modal.innerHTML = `
         <div class="card-body text-center">
           <h1 class="card-title ">Brighton Summer Farmers Market</h1>
-          <h5> Every Wednesday  from June 15th - October 26th<h5>
+          <h5> Every Wednesday  <br> from June 15th - October 26th<h5>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
           <a href="https://brightonfarmersmarket.org/" target="_blank" class="btn btn-warning">More info</a>
@@ -72,7 +72,7 @@ function showModal(info) {
         modal.innerHTML = `
         <div class="card-body text-center">
             <h1 class="card-title ">POPPORTUNITY STARLIGHT SQUARE</h1>
-            <h5> Every Sat & Sun from August 7th - October 16th<h5>
+            <h5> Every Sat & Sun  <br> from August 7th - October 16th<h5>
             <h5 class="card-text">12:00pm - 6:00pm</h5>
             <h5>84 Bishop Allen Drive Central Square, Cambridge MA</h5>
             <a href="https://www.starlightsquare.org/popportunity" target="_blank" class="btn btn-warning">More info</a>
