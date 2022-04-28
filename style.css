@@ -449,16 +449,25 @@ nav {
   border-radius: 15px;
 }
 
+.card-title {
+  min-height: 172px !important;
+  text-shadow: 2px 2px 2px #000000 !important;
+  background: rgba(0, 0, 0, 0.2)!important;
+}
 
 .ros {
-  background-position: center;
-  background-size: cover;
+  background-position: center!important;
+  background-size: cover!important;
+
 }
 
 .bright {
-  background-size: cover;
-  background-position: center;
-
+  background-size: cover!important;
+  background-position: center!important;
+}
+.pop {
+  background-size: cover!important;
+  background-position: center!important;
 }
 
 @media (max-width: 350px) {

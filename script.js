@@ -46,7 +46,9 @@ function showModal(info) {
     if ( info == 'ros' ) {
         modal.innerHTML = `
         <div class="card-body text-center">
-          <h1 class="card-title ">Roslindale <br>Summer Farmers Market</h1>
+        <div class="ros" style="background-image: url('images/roslindale.jpg')">
+          <h1 class="card-title ros" style="background-image: url('images/roslindale.jpg')">Roslindale <br>Summer Farmers Market</h1>
+        </div>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
 
@@ -60,7 +62,9 @@ function showModal(info) {
     } else if ( info == 'bright'){
         modal.innerHTML = `
         <div class="card-body text-center">
-          <h1 class="card-title ">Brighton Summer Farmers Market</h1>
+          <div class="bright" style="background-image: url('images/location.jpg')">
+            <h1 class="card-title">Brighton Summer Farmers Market</h1>
+          </div
           <h5> Every Wednesday  <br> from June 15th - October 26th<h5>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
@@ -70,7 +74,9 @@ function showModal(info) {
     } else {
         modal.innerHTML = `
         <div class="card-body text-center">
-            <h1 class="card-title ">POPPORTUNITY STARLIGHT SQUARE</h1>
+            <div class="pop" style="background-image: url('images/pop.jpg')">
+                <h1 class="card-title">POPPORTUNITY STARLIGHT SQUARE</h1>
+            </div>
             <h5> Every Sat & Sun  <br> from August 7th - October 16th<h5>
             <h5 class="card-text">12:00pm - 6:00pm</h5>
             <h5>84 Bishop Allen Drive Central Square, Cambridge MA</h5>
