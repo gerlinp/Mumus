@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto+Slab:wght@500&family=Walter+Turncoat&display=swap');
 @font-face { font-family:amsterdam-two; src: url(amsterdam-two.ttf);}
 @font-face { font-family:bangla-mn; src: url(bangla-mn.ttf);}
-
+@font-face { font-family: object-heavy; src: url(ObjectSans-Heavy.otf);}
+@font-face { font-family: object-regular; src: url(ObjectSans-Regular.otf);}
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
@@ -71,6 +72,19 @@ nav {
 
 }
 
+.logo-text img {
+  max-width: 90%;
+  max-height: 15%;
+}
+
+.logo-text h1{
+  font-size: 3rem;
+  font-family: object-heavy;
+}
+.logo-text h5 {
+  font-size: 2rem;
+  font-family: object-regular;
+}
 #about {
   margin-bottom: 100px; 
 }
