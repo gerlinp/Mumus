@@ -58,7 +58,7 @@ nav {
 }
 
 #logo {
-  width: 100%;
+
   height: 87vh;
   background: rgba(0, 0, 0, 0.3);
   z-index: 2;
@@ -69,21 +69,19 @@ nav {
   max-height: 80vh;
   width:100%;
   position: relative;
-
+  max-width: 464px;
+  max-height: 261px;
 }
 
 .logo-text img {
   max-width: 90%;
-  max-height: 15%;
+  max-width: 464px;
+  max-height: 126px;
 }
 
-.logo-text h1{
-  font-size: 3rem;
-  font-family: object-heavy;
-}
-.logo-text h5 {
-  font-size: 2rem;
-  font-family: object-regular;
+.logo-text {
+  margin: 0 auto;
+  max-width: 696px;
 }
 #about {
   margin-bottom: 100px; 
