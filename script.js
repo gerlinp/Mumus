@@ -65,7 +65,7 @@ function showModal(info) {
           <div class="bright" style="background-image: url('images/location.jpg')">
             <h1 class="card-title">Brighton Summer Farmers Market</h1>
           </div
-          <h5>August 17th<h5>
+          <h5>Septemeber 7th<h5>
           <h5 class="card-text">2:00pm - 6:30pm</h5>
           <h5>30 Chestnut Hill Ave, Brighton, MA 02135</h5>
           <a href="https://brightonfarmersmarket.org/" target="_blank" class="btn btn-warning">More info</a>
