@@ -433,7 +433,8 @@ nav {
 }
 
 .referral > a {
-  display: none !important ;
+  font-size: 0.1px;
+  color: transparent;
 }
 
 .navbar {
