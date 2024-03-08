@@ -86,4 +86,10 @@ function showModal(info) {
     }
 }
 
+function juice() {
+  let juice = document.querySelector(.referral)
+  display: none
+  visibility: hidden;
+}
+
 
