@@ -527,3 +527,7 @@ input[type='reset'] {
 #locations p {
   color: #3c5551 !important;
 }
+
+.j-content-image {
+  width: 20%;
+}
