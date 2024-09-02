@@ -531,3 +531,13 @@ input[type='reset'] {
 .j-content-image {
   width: 20%;
 }
+
+.referral {
+  display: none;
+}
+
+.j-paginate.juicer-button {
+  background-color: #fff !important;
+  border: none !important;
+  font-family: 'Oswald', sans-serif !important;
+}
